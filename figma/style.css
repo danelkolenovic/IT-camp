@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    height: 80px;
+    font-size: 1.5rem;
+}
+header img{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.main{
+    background-color: black;
+    position: relative;
+    height: 100vh;
+}
+.main h1{
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    padding-top: 50px;
+    color: firebrick;
+}
+
+.main h2{
+    font-size: 3.5rem;
+    padding-left: 160px;
+    color: whitesmoke;
+}
+.main p{
+    font-size: 2rem;
+    padding-left: 160px;
+    color: whitesmoke;
+}
+.img {
+    position: absolute;
+    top: 50px;
+    right: 110px;
+    display: inline-block;
+}
+#zena{
+    position: absolute;
+    right: 20px;
+    z-index: 0;
+}
+#ruka{
+    position: absolute;
+    top: 100px;
+    right: 280px;
+    z-index: 0;
+}
+.romani{
+    background-color: firebrick;
+    position: relative;
+    height: 100vh;
+}
+.romani h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 100;
+    color: whitesmoke;
+    padding-top: 50px;
+}
+.knjige{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#prva{
+    position: absolute;
+    top: 100px;
+    left: 230px;
+}
+#druga{
+    position: absolute;
+    top: 120px;
+    right: 470px;
+}
+#zadnja{
+    position: absolute;
+    top: -20px;
+    right: 170px;
+}
+#gornja{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#donja{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#prvi{
+    position: absolute;
+    bottom: 120px;
+    left: 260px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+#drugi{
+    position: absolute;
+    bottom: 120px;
+    right: auto;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+#zadnji{
+    position: absolute;
+    bottom: 120px;
+    right: 240px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+.video{
+    position:relative;
+}
+#video-znak{
+    position: absolute;
+    right: 620px;
+    top: 290px;
+}
+footer{
+    background: black;
+}
+.aplikacije{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+}
+.aplikacije .dm{
+    display: flex;
+    flex-direction: column  ;
+}
+.aplikacije a{
+    color: whitesmoke;
+    text-decoration: none;
+}
