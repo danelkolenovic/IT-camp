@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    height: 80px;
+    font-size: 1.5rem;
+}
+header img{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+main{
+    background: rgb(53, 11, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+    padding: 50px;
+    position: relative;
+}
+main h1{
+    padding-bottom: 90px;
+}
+main img{
+    padding-bottom: 60px;
+}
+
+
+main p{
+    padding-bottom: 50px;
+}
+hr{
+    width: 350px;
+}
+article {
+    display: flex;
+    justify-content: center; 
+    gap: 40px;
+    padding: 30px;
+    text-align: center;
+
+}
+button{
+    padding: 12px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+#pero{
+    position: absolute;
+    right: 390px;
+    bottom:-50px;
+}
+.belo{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 20px;
+    left: 51px;
+   padding: 5px 10px;
+   color: whitesmoke;
+   border-radius: 50%;
+}
+
+.title{
+    display: flex;    
+    align-items: center; 
+    text-align: center;}
+    
+    .title::before,
+    .title::after{
+        content: "";
+        flex: 1;
+        border-top: 2px solid whitesmoke;
+        width: 100px;
+        margin: 0 10px;
+    }
+
+footer{
+    background: black;
+}
+.aplikacije{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+}
+.aplikacije .dm{
+    display: flex;
+    flex-direction: column  ;
+}
+.aplikacije a{
+    color: whitesmoke;
+    text-decoration: none;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    height: 80px;
+    font-size: 1.5rem;
+}
+header img{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    line-height: 30px;
+    background: #222;
+    color: whitesmoke;
+    position: relative;
+}
+main h4{
+    color: firebrick;
+}
+main h1{
+    margin: 40px 0;
+}
+main div{
+    margin: 40px 0;
+}
+#gore{
+    position: absolute;
+    top: 0;
+    right: 350px;
+}
+#dole{
+    position: absolute;
+    bottom: 60px;
+    left: 350px;
+}
+
+
+.belo{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 20px;
+    left: 51px;
+   padding: 5px 10px;
+   color: whitesmoke;
+   border-radius: 50%;
+}
+
+.title{
+display: flex;    
+align-items: center; 
+text-align: center;}
+
+.title::before,
+.title::after{
+    content: "";
+    flex: 1;
+    border-top: 2px solid whitesmoke;
+    width: 100px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background: black;
+}
+.aplikacije{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+}
+.aplikacije .dm{
+    display: flex;
+    flex-direction: column  ;
+}
+.aplikacije a{
+    color: whitesmoke;
+    text-decoration: none;
+}

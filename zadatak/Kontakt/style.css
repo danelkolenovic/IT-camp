@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    height: 80px;
+    font-size: 1.5rem;
+}
+header img{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+main img{
+    position: absolute  ;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1;
+    padding-top: 120px;
+}
+input {
+    border: none;
+    border-bottom:1px solid black  ;
+  
+}
+section h2{
+    text-align: center;
+}
+.dugme{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 90px;
+}
+button{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+.sporocilo input{
+    width: 300px;
+}
+div #slika{
+    color: grey;
+    position: absolute;
+    top: 200px;
+    left: 570px;
+}
+div #slika1{
+    color: grey;
+    position: absolute;
+    top: 162px;
+    left: 575px;
+}
+.belo{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 20px;
+    left: 51px;
+   padding: 5px 10px;
+   color: whitesmoke;
+   border-radius: 50%;
+}
+
+
+
+
+footer{
+    background: black;
+}
+.aplikacije{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 20px;
+}
+.aplikacije .dm{
+    display: flex;
+    flex-direction: column  ;
+}
+.aplikacije a{
+    color: whitesmoke;
+    text-decoration: none;
+}
